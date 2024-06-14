@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\MYSTUFF\Kursach\code\WindowsProject1\WindowsProject1\</FILEPATH>
+      <FILENAME>WindowsProject1.cpp</FILENAME>
+      <LINE>351</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6328</DEFECTCODE>
+    <DESCRIPTION>Несоответствие размера: "unsigned __int64" передан в качестве параметра _Param_(3), хотя при вызове "wsprintfW" требуется "int". </DESCRIPTION>
+    <FUNCTION>WindowProc</FUNCTION>
+    <DECORATED>?WindowProc@@YA_JPEAUHWND__@@I_K_J@Z</DECORATED>
+    <FUNCLINE>293</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\MYSTUFF\Kursach\code\WindowsProject1\WindowsProject1\</FILEPATH>
+      <FILENAME>WindowsProject1.cpp</FILENAME>
+      <LINE>567</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Несогласованная аннотация для "WinMain": данный экземпляр содержит нет аннотаций. См. c:\program files (x86)\windows kits\10\include\10.0.22621.0\um\winbase.h(1037). </DESCRIPTION>
+    <FUNCTION>WinMain</FUNCTION>
+    <DECORATED>WinMain</DECORATED>
+    <FUNCLINE>567</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

@@ -1,0 +1,6 @@
+﻿  WindowsProject1.cpp
+C:\MYSTUFF\Kursach\code\WindowsProject1\WindowsProject1\WindowsProject1.cpp(405,90): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\MYSTUFF\Kursach\code\WindowsProject1\WindowsProject1\WindowsProject1.cpp(405,82): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\MYSTUFF\Kursach\code\WindowsProject1\WindowsProject1\WindowsProject1.cpp(406,90): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\MYSTUFF\Kursach\code\WindowsProject1\WindowsProject1\WindowsProject1.cpp(406,82): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  WindowsProject1.vcxproj -> C:\MYSTUFF\Kursach\code\WindowsProject1\x64\Debug\WindowsProject1.exe

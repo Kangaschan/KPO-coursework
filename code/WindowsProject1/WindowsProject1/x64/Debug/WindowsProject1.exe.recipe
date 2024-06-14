@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\MYSTUFF\Kursach\code\WindowsProject1\x64\Debug\WindowsProject1.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\MYSTUFF\Kursach\images\carD.bmp</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\MYSTUFF\Kursach\images\carD.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\MYSTUFF\Kursach\images\racingmap_1.bmp</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

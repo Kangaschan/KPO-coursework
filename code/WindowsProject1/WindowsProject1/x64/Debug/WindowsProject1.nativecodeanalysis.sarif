@@ -1,0 +1,91 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6328",
+          "message": {
+            "text": "Несоответствие размера: \"unsigned __int64\" передан в качестве параметра _Param_(3), хотя при вызове \"wsprintfW\" требуется \"int\". "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/MYSTUFF/Kursach/code/WindowsProject1/WindowsProject1/WindowsProject1.cpp"
+                },
+                "region": {
+                  "startLine": 351,
+                  "startColumn": 9,
+                  "endLine": 351,
+                  "endColumn": 97
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WindowProc",
+                  "decoratedName": "?WindowProc@@YA_JPEAUHWND__@@I_K_J@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28251",
+          "message": {
+            "text": "Несогласованная аннотация для \"WinMain\": данный экземпляр содержит нет аннотаций. См. c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\um\\winbase.h(1037). "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/MYSTUFF/Kursach/code/WindowsProject1/WindowsProject1/WindowsProject1.cpp"
+                },
+                "region": {
+                  "startLine": 567,
+                  "startColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WinMain",
+                  "decoratedName": "WinMain",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33133.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/MYSTUFF/Kursach/code/WindowsProject1/WindowsProject1/WindowsProject1.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "415b592e661ddd2726f668fe20e10dd89b6024854feff43dc5cb8bebcfbd8b32"
+          }
+        }
+      ]
+    }
+  ]
+}
